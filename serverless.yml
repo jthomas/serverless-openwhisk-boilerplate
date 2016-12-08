@@ -1,0 +1,37 @@
+# Welcome to Serverless!
+#
+# This file is the main config file for your service.
+# It's very minimal at this point and uses default values.
+# You can always add more config options for more control.
+# We've included some commented out config examples here.
+# Just uncomment any of them to get that config option.
+#
+# For full config options, check the docs:
+#    docs.serverless.com
+#
+# Happy Coding!
+
+service: my_service # NOTE: update this with your service name
+
+provider:
+  name: openwhisk
+  runtime: nodejs:default
+
+# you can add packaging information here
+#package:
+#  include:
+#    - include-me.js
+#    - include-me-dir/**
+#  exclude:
+#    - exclude-me.js
+#    - exclude-me-dir/**
+
+functions:
+  my_function:
+    handler: index.main
+    events:
+      - trigger: my_trigger
+
+# remember to run npm install to download the provider plugin.        
+plugins:
+    - serverless-ibm-openwhisk

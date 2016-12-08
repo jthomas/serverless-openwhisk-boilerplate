@@ -1,0 +1,11 @@
+# Serverless
+.serverless
+.env
+tmp
+.coveralls.yml
+
+# OS
+.DS_Store
+.tmp
+
+node_modules

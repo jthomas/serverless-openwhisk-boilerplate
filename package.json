@@ -1,0 +1,14 @@
+{
+  "name": "serverless-openwhisk-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate project repository for OpenWhisk provider with Serverless Framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Thomas <james@jamesthom.as>",
+  "license": "MIT",
+  "dependencies": {
+    "serverless-openwhisk": "serverless/serverless-openwhisk"
+  }
+}
