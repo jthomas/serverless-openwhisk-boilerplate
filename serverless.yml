@@ -34,4 +34,4 @@ functions:
 
 # remember to run npm install to download the provider plugin.        
 plugins:
-    - serverless-ibm-openwhisk
+    - serverless-openwhisk
