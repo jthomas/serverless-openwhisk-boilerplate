@@ -15,22 +15,16 @@ service: my_service # NOTE: update this with your service name
 
 provider:
   name: openwhisk
-  runtime: nodejs:default
-
-# you can add packaging information here
-#package:
-#  include:
-#    - include-me.js
-#    - include-me-dir/**
-#  exclude:
-#    - exclude-me.js
-#    - exclude-me-dir/**
 
 functions:
-  my_function:
-    handler: index.main
+  hello_world:
+    handler: hello_world.handler
     events:
-      - trigger: my_trigger
+      - trigger: event_name
+  left_pad:
+    handler: left_pad.handler
+  delay:
+    handler: delay.handler
 
 # remember to run npm install to download the provider plugin.        
 plugins:

@@ -2,8 +2,6 @@
 
 A Serverless Framework Boilerplate for OpenWhisk support with Node.js
 
-Work in progress...
+**Please see [instructions](https://github.com/serverless/serverless-openwhisk) for getting starting with the OpenWhisk plugin for The Serverless Framework. The README walks you through setting up this project.**
 
-## Setup
-
-Run `npm install` to install all the necessary dependencies.
+https://github.com/serverless/serverless-openwhisk
