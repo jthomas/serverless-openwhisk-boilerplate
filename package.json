@@ -1,6 +1,6 @@
 {
   "name": "serverless-openwhisk-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Boilerplate project repository for OpenWhisk provider with Serverless Framework.",
   "scripts": {
     "postinstall": "npm link serverless-openwhisk",
