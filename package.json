@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "description": "Boilerplate project repository for OpenWhisk provider with Serverless Framework.",
   "scripts": {
+    "postinstall": "npm link serverless-openwhisk",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "James Thomas <james@jamesthom.as>",
   "license": "MIT",
   "dependencies": {
-    "left-pad": "^1.1.3",
-    "serverless-openwhisk": "serverless/serverless-openwhisk"
+    "left-pad": "^1.1.3"
   }
 }
